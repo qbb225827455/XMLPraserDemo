@@ -24,7 +24,7 @@ class NewsTableViewCell: UITableViewCell {
     
     @IBOutlet weak var descriptionLabel:UILabel! {
         didSet {
-            descriptionLabel.numberOfLines = 0
+            descriptionLabel.numberOfLines = 4
         }
     }
     

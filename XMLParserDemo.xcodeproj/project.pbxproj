@@ -10,6 +10,7 @@
 		EE97710128ACEA75008E54EA /* NewsTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EE97710028ACEA75008E54EA /* NewsTableViewController.swift */; };
 		EE97710328ACEA87008E54EA /* NewsTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = EE97710228ACEA87008E54EA /* NewsTableViewCell.swift */; };
 		EE97710528ACEBC5008E54EA /* UIFont+Ext.swift in Sources */ = {isa = PBXBuildFile; fileRef = EE97710428ACEBC5008E54EA /* UIFont+Ext.swift */; };
+		EE97710728ACEEAB008E54EA /* FeedParser.swift in Sources */ = {isa = PBXBuildFile; fileRef = EE97710628ACEEAB008E54EA /* FeedParser.swift */; };
 		EEE4075D28ACE9120085EB75 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = EEE4075C28ACE9120085EB75 /* AppDelegate.swift */; };
 		EEE4075F28ACE9120085EB75 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = EEE4075E28ACE9120085EB75 /* SceneDelegate.swift */; };
 		EEE4076428ACE9120085EB75 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EEE4076228ACE9120085EB75 /* Main.storyboard */; };
@@ -21,6 +22,7 @@
 		EE97710028ACEA75008E54EA /* NewsTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NewsTableViewController.swift; sourceTree = "<group>"; };
 		EE97710228ACEA87008E54EA /* NewsTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NewsTableViewCell.swift; sourceTree = "<group>"; };
 		EE97710428ACEBC5008E54EA /* UIFont+Ext.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIFont+Ext.swift"; sourceTree = "<group>"; };
+		EE97710628ACEEAB008E54EA /* FeedParser.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FeedParser.swift; sourceTree = "<group>"; };
 		EEE4075928ACE9120085EB75 /* XMLParserDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = XMLParserDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		EEE4075C28ACE9120085EB75 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		EEE4075E28ACE9120085EB75 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -68,6 +70,7 @@
 				EEE4076A28ACE9130085EB75 /* Info.plist */,
 				EE97710028ACEA75008E54EA /* NewsTableViewController.swift */,
 				EE97710228ACEA87008E54EA /* NewsTableViewCell.swift */,
+				EE97710628ACEEAB008E54EA /* FeedParser.swift */,
 				EE97710428ACEBC5008E54EA /* UIFont+Ext.swift */,
 			);
 			path = XMLParserDemo;
@@ -144,6 +147,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				EE97710728ACEEAB008E54EA /* FeedParser.swift in Sources */,
 				EEE4075D28ACE9120085EB75 /* AppDelegate.swift in Sources */,
 				EEE4075F28ACE9120085EB75 /* SceneDelegate.swift in Sources */,
 				EE97710328ACEA87008E54EA /* NewsTableViewCell.swift in Sources */,
